@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- INFORMATIONS -->
+  <title>Jap'Adventure</title>
+  <link rel="icon" href="assets/fuji-mountain.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- MENU DEROULANT -->
+  <ul id="menu">
+    <li><a href="">Accueil</a></li>
+    <li><a href="">Destinations &#x25BE</a>
+      <ul class="dropdown">
+        <li><a href="destinations/tokyo.html">Tokyo</a></li>
+        <li><a href="destinations/kyoto.html">Kyoto</a></li>
+        <li><a href="destinations/osaka.html">Osaka</a></li>
+        <li><a href="destinations/nara.html">Nara</a></li>
+      </ul>
+    </li>
+    <li><a href="formules.html">Formules</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+
+  <!-- CONTENEUR -->
+  <section id="bienvenue">
+    <!-- EN-TETE -->
+    <div class="conteneur">
+      <header>
+        Jap'Adventure
+        <span id="slogan">Le Japon n'a jamais été aussi proche</span>
+      </header>
+    </div>
+  </section>
+
+  <!-- CONTENU -->
+  <section class="contenu conteneur">
+    <!-- TOP -->
+    <section>
+      <h1>Nos destinations préférées</h1>
+      <p id="top">
+        Cliquez et découvrez votre prochaine destination !
+      </p>
+
+      <section id="grid-ville">
+        <div class="image_container tokyo">
+          <a href="destinations/tokyo.html" id="tokyo" class="ville">Tokyo</a>
+        </div>
+
+        <div class="image_container kyoto">
+          <a href="destinations/kyoto.html" id="kyoto" class="ville">Kyoto</a>
+        </div>
+
+        <div class="image_container osaka">
+          <a href="destinations/osaka.html" id="osaka" class="ville">Osaka</a>
+        </div>
+
+        <div class="image_container nara">
+          <a href="destinations/nara.html" id="nara" class="ville">Nara</a>
+        </div>
+      </section>
+
+      <!-- EN VOIR PLUS -->
+      <div style="text-align: right; margin-top: 10px;">
+        <a href="" id="voir-plus">Autres destinations<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+            viewBox="0 0 15 15">
+            <path fill="currentColor"
+              d="m8.146 9.146l-.353.354l.707.707l.354-.353l-.708-.708ZM10.5 7.5l.354.354l.353-.354l-.353-.354l-.354.354ZM8.854 5.146L8.5 4.793l-.707.707l.353.354l.708-.708Zm0 4.708l2-2l-.708-.708l-2 2l.708.708Zm2-2.708l-2-2l-.708.708l2 2l.708-.708ZM10.5 7H4v1h6.5V7Zm-3 7A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15v-1ZM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5h-1ZM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0v1Zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1V0Z" />
+          </svg></a>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- PIED DE PAGE -->
+
+  <footer>
+    <div class="conteneur" id="grid-foot">
+      <div id="logo-foot">
+        <img src="../assets/fuji-mountain.png" alt="Japon" style="width: 40px; display: block;">
+        2023 © Jap'Adventure
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
